@@ -21,7 +21,7 @@ body{
 
 /* banner-------------------------------------------------------- */
 .banner{
-    
+
     height: 454px;
     background: #D9ECF2;
 }
@@ -31,6 +31,7 @@ body{
 
 .postagens h1{
     border-bottom: 1px solid black;
+    font-family: 'Abril Fatface', cursive;
 }
 .postagens p{
     display: inline;
@@ -41,4 +42,22 @@ body{
     margin: 10px;
     width: 40%;
     min-width: 280px;
+}
+.postagens a{
+    text-decoration: none;
+    float: right;
+    margin:50px 10px;
+    color: white;
+    background: #1AA6B7;
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+.postagens a:hover{
+    text-decoration: none;
+    color: #D9ECF2;
 }
