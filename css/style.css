@@ -61,3 +61,31 @@ body{
     text-decoration: none;
     color: #D9ECF2;
 }
+
+/*BARRA LATERAL*/
+/*sobre mim---------------------------------------------------------*/
+.lateral{
+    margin: 0 auto;
+}
+.sobre-mim{
+    width: 300px;
+    height: 600px;
+    margin: 0px auto ;
+}
+.sobre-mim h1{
+    text-align: center;
+    font-family: 'charlotte';
+}
+.sobre-mim p{
+    width: 250px;
+    text-align: center;
+    margin: 15px auto;
+}
+.foto-perfil{
+    background: #002D40 url(../imagens/Ellipse\ 5.png) no-repeat center;
+    width: 290px;
+    height: 286px;
+    margin: 20px auto;
+    padding-left: 10px;
+    border-radius: 100% 100%;
+}
