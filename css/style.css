@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100&display=swap');
+
+
 *{
     padding: 0;
     margin: 0;
@@ -65,27 +68,85 @@ body{
 /*BARRA LATERAL*/
 /*sobre mim---------------------------------------------------------*/
 .lateral{
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.lateral h1{
+    font-family: 'charlotte';
+    font-size: 30px;
+    line-height: 67px;
 }
 .sobre-mim{
-    width: 300px;
+    width: 350px;
     height: 600px;
-    margin: 0px auto ;
 }
-.sobre-mim h1{
-    text-align: center;
-    font-family: 'charlotte';
-}
+
 .sobre-mim p{
-    width: 250px;
-    text-align: center;
-    margin: 15px auto;
+    margin: 10px 50px;
+
 }
 .foto-perfil{
     background: #002D40 url(../imagens/Ellipse\ 5.png) no-repeat center;
-    width: 290px;
-    height: 286px;
+    width: 300px;
+    height: 300px;
     margin: 20px auto;
     padding-left: 10px;
     border-radius: 100% 100%;
+}
+
+/*redes sociais-----------------------------------------------------*/
+.redes{
+    width: 350px;
+    margin: 60px 0px;
+}
+.redes a img{
+    margin: 20px auto;
+    width: 55px;
+}
+.redes a img:hover{
+    width: 60px;
+}
+
+/* inscreva-se-----------------------------------------------------*/
+.inscricao{
+    background: #FF414F;
+    color: #fff;
+    width: 350px;
+    height: 400px;
+}
+.inscricao h2{
+    font-family: 'Gayathri', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    text-align: center;  
+    font-size: 30px;
+    margin: 60px auto 20px;
+
+}
+.inscricao p{
+    font-size: 14px;
+    width: 320px;
+    text-align: center;
+    margin: 0 auto;
+}
+.inscricao form{
+    width: 250px;
+    margin: 0 auto;
+}
+.inscricao input{
+    font-family: 'Gayathri', sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 250px;
+}
+.inscricao button{
+    width: 100%;
+    background: #1AA6B7;
+    color: #fff;
 }
