@@ -20,12 +20,16 @@ body{
     line-height: 120px;
     
 }
+nav a:hover{
+    text-decoration: none;
+    color:#1AA6B7;
+}
 
 /* banner-------------------------------------------------------- */
 .banner{
-
     height: 454px;
     background: #D9ECF2;
+    margin-bottom: 50px;
 }
 
 
