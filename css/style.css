@@ -5,7 +5,6 @@
     padding: 0;
     margin: 0;
 }
-}
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px auto;
@@ -148,5 +147,11 @@ body{
 .inscricao button{
     width: 100%;
     background: #1AA6B7;
+    color: #fff;
+}
+
+/* footer -----------------------------------------------------------*/
+footer{
+    background: #002D40;
     color: #fff;
 }
