@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap');
 
 
 
@@ -16,9 +16,9 @@ body{
 /* menu ----------------------------------------------------------*/ 
 
 .logo2{
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Cookie', cursive;
     color: #FF414F;
-    font-size: 50px;
+    font-size: 60px;
     line-height: 120px;
     
 }
@@ -81,8 +81,8 @@ nav a:hover{
     margin-bottom: 50px;
 }
 .lateral h1{
-    font-family: 'Lobster Two', cursive;
-    font-size: 30px;
+    font-family: 'Cookie', cursive;
+    font-size: 40px;
     line-height: 67px;
 }
 .sobre-mim{
