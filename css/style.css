@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 
 
-
-
 *{
     padding: 0;
     margin: 0;
@@ -32,6 +30,10 @@ nav a:hover{
     height: 454px;
     background: #D9ECF2;
     margin-bottom: 50px;
+}
+.banner img{
+    width: 100%;
+    overflow: hidden;
 }
 
 
