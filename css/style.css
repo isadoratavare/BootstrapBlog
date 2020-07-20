@@ -27,16 +27,21 @@ nav a:hover{
 
 /* banner-------------------------------------------------------- */
 .banner{
-    height: 454px;
+    height:500px;
+    min-width: 300px;
     background: #D9ECF2;
     margin-bottom: 50px;
+    overflow: hidden;
+    object-position: center;
 }
 .banner img{
     width: 100%;
-    overflow: hidden;
 }
-
-
+@media only screen and (max-width: 600px) {
+    .banner{
+      height: 100%;
+    }
+}
 /* postagens ------------------------------------------------------*/
 
 .postagens h1{
