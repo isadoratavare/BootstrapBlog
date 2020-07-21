@@ -10,7 +10,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 
 }
-
 /* menu ----------------------------------------------------------*/ 
 
 .logo2{
@@ -31,7 +30,6 @@ nav a:hover{
     background: #D9ECF2;
     margin-bottom: 50px;
     overflow: hidden;
-    object-position: center;
 }
 .banner img{
     width: 100%;
