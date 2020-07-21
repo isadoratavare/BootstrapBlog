@@ -101,7 +101,8 @@ nav a:hover{
 
 }
 .foto-perfil{
-    background: #002D40 url(../imagens/Ellipse\ 5.png) no-repeat center;
+    background: #002D40 url(../imagens/perfil.jpg) no-repeat center;
+    background-size: cover ;
     width: 300px;
     height: 300px;
     margin: 20px auto;
